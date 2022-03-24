@@ -1,0 +1,121 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.logo {
+  width: 134px;
+  height: 50px;
+}
+.ul {
+  display: flex;
+  list-style-type: none;
+}
+.ul > li {
+  margin-left: 100px;
+}
+.navbar-list {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  text-transform: uppercase;
+  transition: all 1s ease;
+}
+.navbar-list:hover{
+    transform:translateY(-10px);
+}
+.navbar-link {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  transition:1s ease all;
+}
+.navbar-link:hover{
+    color:  #40BFFF;;
+}
+.responsive-button{
+    border: none;
+    outline: none;
+    background-color:none;
+  background: transparent;
+  display: none;
+
+}
+.humburger-img{
+    width: 50px;
+    height: 40px;
+    background-color:#F7f7f7;
+
+}
+
+@media only screen and (max-width:1108px){
+    .ul > li {
+        margin-left: 60px;
+      } 
+}
+@media only screen and (max-width:928px){
+    .ul > li {
+        margin-left: 50px;
+      } 
+      .navbar-list {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Helvetica Neue", Helvetica, Arial;
+        text-transform: uppercase;
+        transition: all 1s ease;
+      }
+}
+@media only screen and (max-width:798px){
+    .ul > li {
+        margin-left: 40px;
+      } 
+      .navbar-list {
+        font-size: 17px;
+        font-weight: 500;
+        font-family: "Helvetica Neue", Helvetica, Arial;
+        text-transform: uppercase;
+        transition: all 1s ease;
+      }
+}
+@media only screen and (max-width:698px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+    .ul > li {
+        margin-left: 30px;
+      } 
+      .navbar-list {
+        font-size: 15px;
+        font-weight: 500;
+        font-family: "Helvetica Neue", Helvetica, Arial;
+        text-transform: uppercase;
+        transition: all 1s ease;
+      }
+}
+@media only screen and (max-width:608px){
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 20px;
+      }
+      .ul {
+        display: none;
+        list-style-type: none;
+      }
+      .responsive-button{
+        border: none;
+        outline: none;
+        background-color:none;
+      background: transparent;
+      display: block;
+    
+    }
+    .humburger-img{
+        width: 50px;
+        height: 40px;
+        background-color:#F7f7f7;
+    
+    }
+  
+}

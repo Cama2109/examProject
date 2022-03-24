@@ -1,0 +1,193 @@
+.cards {
+  display: grid;
+  grid-template-columns: auto auto auto  ;
+  grid-template-areas: "card-1 card-2 card-3";
+  margin-top: -70px;
+  background-color:#ffffff;
+  border-radius: 9px;
+  align-items: center;
+
+}
+.card {
+  width: 340px;
+  height: 360px;
+  background-color:#f7f7f7;
+  transition: all 1s ease;
+  padding: 0 5px;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+  
+}
+
+.card:hover{
+transform: scale(1.1);
+border:2px solid #b9babd;
+background-color: #f7f7f7;
+
+}
+
+.card-1 {
+  grid-area:card-1;
+  position: relative;
+}
+.card-2 {
+  grid-area: card-2;
+ 
+}
+.card-3 {
+  grid-area: card-3;
+  position: relative;
+ 
+}
+.card-flex {
+  display: flex;
+}
+.card-flex-2{
+    width: 190px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.old-price {
+  font-size: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-weight: 400px;
+  line-height: 15px;
+  opacity: 0.5px;
+  text-decoration: line-through;
+  color: #9098b1;
+  width: 80px;
+}
+
+.disscount {
+  color: #fb7181;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 15px;
+  opacity: 0.5px;
+  width: 80px;
+}
+
+.new-price {
+  color: #40bfff;
+  font-family: Raleway;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.card-title {
+    color: #223263;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 20px;
+    opacity: 0.5px;
+    width: 190px;
+    text-align: left;
+  }
+  .card-flex-3{
+      margin-top:-30px;
+  }
+
+
+.card-img {
+    width: 260px;
+    height: 180px;
+  
+   background: transparent;
+  }
+  .card-img-3{
+    width: 250px;
+    height: 160px;
+
+    
+}
+
+.blue-price-3{
+  display: flex;
+margin-top: -30px;
+position:absolute;
+right: 20px;
+
+
+
+}
+
+.blue-price-1{
+    display: flex;
+position: absolute;
+left: 230px;
+    margin-top: -40px;
+}
+.blue-price-2{
+    display:flex;
+}
+@media only screen and (max-width:1071px){
+    .card {
+        width: 320px;
+        height: 340px;
+        background-color:#f7f7f7;
+        transition: all 1s ease;
+        padding: 0 5px;
+        border-radius: 6px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+        
+      }
+      .blue-price-1{
+        display: flex;
+    position: absolute;
+    left: 200px;
+        margin-top: -40px;
+    }
+}
+@media only screen and (max-width:995px){
+    .card {
+        width: 280px;
+        height: 340px;
+        background-color:#f7f7f7;
+        transition: all 1s ease;
+        padding: 0 5px;
+        border-radius: 6px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+        
+      }
+}
+@media only screen and (max-width:875px){
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        height: 340px;
+        background-color:#f7f7f7;
+        transition: all 1s ease;
+        padding: 0 5px;
+        border-radius: 6px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+        
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: auto auto  ;
+        grid-template-areas: "card-1 card-2 "
+        "card-3 card-3 ";
+        margin-top: -30px;
+        background-color:#ffffff;
+        border-radius: 9px;
+        align-items: center;
+      
+      }
+      .card-3 {
+        width: 280px;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-area:card-3;
+        position: relative;
+      }
+}
