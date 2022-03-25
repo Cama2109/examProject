@@ -10,5 +10,60 @@ font-family: "Helvetica Neue",Helvetica,Arial;
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-areas: "news-card-1 news-card-2 news-card-3";
-    grid-gap:30px;
+    grid-gap:0px;
+   
+}
+
+.news-card-1{
+    grid-area: news-card-1 ;
+   
+ 
+}
+.news-card-2{
+    grid-area: news-card-2 ;
+   
+}
+.news-card-3{
+    grid-area: news-card-3 ;
+    
+}
+
+.news-img{
+width:120px;
+height:80px;
+margin-top:50px;
+
+}
+.flex-part{
+    display:flex;
+    justify-content:space-around;
+
+}
+
+.news-card-date{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+font-family: "Helvetica Neue",Helvetica,Arial;
+color: #C1C8CE;
+}
+.news-card-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 33px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+margin-top: -18px;
+color: #22262A;
+width: 180px;
+}
+.news-card-text {
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+font-family: "Helvetica Neue",Helvetica,Arial;
+color: #22262A;
+width: 170px;
 }
