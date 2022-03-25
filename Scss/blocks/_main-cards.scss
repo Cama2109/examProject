@@ -189,5 +189,46 @@ left: 230px;
         margin-right: auto;
         grid-area:card-3;
         position: relative;
+        margin-top: 20px;
+      }
+}
+@media only screen and (max-width:595px){
+    .card {
+        margin-left: auto;
+        margin-right: auto;
+        width: 280px;
+        height: 340px;
+        background-color:#f7f7f7;
+        transition: all 1s ease;
+        padding: 0 5px;
+        border-radius: 6px;
+        text-align: center;
+        box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+      
+      }
+      .cards {
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-areas: "card-1 "
+        "card-2"
+        "card-3 ";
+      
+        background-color:#ffffff;
+        border-radius: 9px;
+        align-items: center;
+      
+      }
+      .card-2 {
+        grid-area: card-2;
+       margin-top: 20px;
+      }
+      .card-3 {
+        width: 280px;
+        height: 340px;
+        margin-left: auto;
+        margin-right: auto;
+        grid-area:card-3;
+        position: relative;
+        margin-top: 20px;
       }
 }

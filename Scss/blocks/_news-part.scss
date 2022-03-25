@@ -1,0 +1,14 @@
+.news-title{
+    text-align: center;
+    font-style: normal;
+font-weight: 600;
+font-size: 34px;
+line-height: 51px;
+font-family: "Helvetica Neue",Helvetica,Arial;
+}
+.news-box{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: "news-card-1 news-card-2 news-card-3";
+    grid-gap:30px;
+}
