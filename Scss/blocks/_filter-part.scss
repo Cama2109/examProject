@@ -1,0 +1,133 @@
+.news-title{
+    margin-top:80px;
+}
+.btn{
+border: none;
+background:none;
+outline: none;
+margin-left:30px;
+transition: all 1s ease;
+}
+.btn:hover{
+    transform: translateY(-10px);
+}
+.filter-buttons{
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.active{
+color:#33A0FF; 
+border-bottom: 3px solid #309fff;
+}
+.show{
+    display: block;
+
+}
+.hide{
+    display: none;
+}
+
+.filter-cards{
+   
+    display: flex;
+    flex-wrap: wrap;
+   
+    grid-gap: 20px;
+    text-align: center;
+ 
+}
+.filter-text{
+  
+    font-style: normal;
+font-weight:bolder;
+font-size: 16px;
+letter-spacing: 0.5px;
+color: #223263;
+font-family: "Helvetica Neue",Helvetica, Arial;
+}
+.star-img{
+    width: 14px;
+    height:14px;
+    margin-left:2px;
+}
+.filter-img{
+    width: 169px;
+    height: 162px;
+    transition: all 1s ease;
+}
+
+.filter-prices{
+   display: grid;
+   grid-template-columns: auto auto auto;
+    width: 260px;
+   margin-left:auto;
+   margin-right:auto;
+
+}
+.filter-prices > p{
+    margin-left:10px
+}
+.filter-price{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #40BFFF;
+    font-family: "Helvetica Neue",Helvetica, Arial;
+}
+.filter-old-price{
+    font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.5px;
+text-decoration-line: line-through;
+color: #9098B1;
+}
+.filter-off{
+    font-style: normal;
+font-weight: 700;
+font-size: 16px;
+letter-spacing: 0.5px;
+color: #FB7181;
+font-family: "Helvetica Neue",Helvetica, Arial;
+
+}
+.filter-box{
+    position: relative;
+}
+.hover-part{
+    width: 150px;
+    height: 70px;
+    background-color: rgba(240, 230, 230, 0.851) ;
+    padding:30px 20px;
+    position: absolute;
+    left: 45px;
+    top: 20px;
+    display: none;
+}
+
+.like-button{
+    border-radius:50%;
+    border:none;
+    background:none;
+    width: 35px;
+    height: 35px;
+    margin-top:20px;
+}
+.like-img{
+    width: 25px;
+    height: 25px;
+}
+.filter-cart{
+    border-radius:50%;
+    border: none;
+    background:none;
+    width: 35px;
+    height: 35px;
+    
+}
+.filter-cart-img{
+width: 25px;
+height: 25px;
+}
