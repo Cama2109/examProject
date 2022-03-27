@@ -1882,4 +1882,31 @@ body {
   width: 25px;
   height: 25px;
 }
+
+.payment {
+  width: 1021px;
+  height: 730px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+}
+
+.small-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-1 {
+  width: 23px;
+  height: 23px;
+}
+
+.icon-2 {
+  width: 25px;
+  height: 25px;
+}
 /*# sourceMappingURL=main.css.map */
