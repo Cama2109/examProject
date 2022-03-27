@@ -400,7 +400,7 @@ body {
       grid-template-columns: auto auto auto;
       grid-template-areas: "card-1 card-2 card-3";
   margin-top: -70px;
-  background-color: #ffffff;
+  background-color: none;
   border-radius: 9px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -418,6 +418,7 @@ body {
   text-align: center;
   -webkit-box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
           box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+  padding: 10px;
 }
 
 .card:hover {

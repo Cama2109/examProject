@@ -3,9 +3,11 @@
   grid-template-columns: auto auto auto  ;
   grid-template-areas: "card-1 card-2 card-3";
   margin-top: -70px;
-  background-color:#ffffff;
+  background-color:none;
   border-radius: 9px;
   align-items: center;
+
+
 
 }
 .card {
@@ -17,6 +19,7 @@
   border-radius: 6px;
   text-align: center;
   box-shadow: rgba(149, 157, 165, 0.2) 10px 8px 12px;
+  padding: 10px;
   
 }
 
