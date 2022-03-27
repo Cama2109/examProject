@@ -67,3 +67,101 @@ font-family: "Helvetica Neue",Helvetica,Arial;
 color: #22262A;
 width: 170px;
 }
+
+@media only screen and (max-width:908px){
+    .news-card-text {
+        font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+    color: #22262A;
+    width: 150px;
+    margin-top:-10px;
+    }
+    .news-card-title{
+        font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 33px;
+    font-family: "Helvetica Neue", Helvetica, Arial;
+    margin-top: -18px;
+    color: #22262A;
+    width: 150px;
+    }
+    .news-img{
+        width:100px;
+        height:80px;
+        margin-top:90px;
+        
+        }
+}
+@media only screen and (max-width:758px){
+    .news-box{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-areas: "news-card-1 news-card-2"
+        "news-card-3 news-card-3";
+        grid-gap:0px;
+       
+    }
+    .news-card-3{
+        grid-area: news-card-3 ;
+        width: 400px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+@media only screen and (max-width:600px){
+    .news-box{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-areas: "news-card-1 " "news-card-2"
+        "news-card-3 ";
+        grid-gap:0px;
+       
+    }
+    .news-card-3{
+        grid-area: news-card-3 ;
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto
+    }
+}
+@media only screen and (max-width:600px){
+    .news-box{
+        display: grid;
+        grid-template-columns: auto  ;
+        grid-template-areas: "news-card-1 " "news-card-2"
+        "news-card-3 ";
+        grid-gap:0px;
+       
+    }
+    .news-card-3{
+        grid-area: news-card-3 ;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto
+    }
+    .news-card-2{
+        grid-area: news-card-2 ;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto
+       
+    }
+    .news-card-1{
+        grid-area: news-card-1 ;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto
+        
+    }
+    
+}
+@media only screen and (max-width:600px){
+    .news-img{
+        width:90px;
+        height:60px;
+        margin-top:90px;}
+}

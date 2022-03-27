@@ -1,7 +1,7 @@
 .blue-part {
-  background-color: #40bfff;
+  background-color: #4ac3ff;
   margin-top: 200px;
-  padding: 150px 30px;
+  padding: 0px  0 0 30px;
 }
 .blue-box {
   display: grid;
@@ -13,6 +13,7 @@
 .written-part {
   grid-area: written-part;
   width: 500px;
+  margin-top: 150px;
 }
 .img-part {
   grid-area: img-part;
@@ -57,7 +58,7 @@
   width: 500px;
   height: 700px;
   position: relative;
-  top: -240px;
+  top: -140px;
 }
 @media only screen and (max-width: 1055px) {
   .written-part {
