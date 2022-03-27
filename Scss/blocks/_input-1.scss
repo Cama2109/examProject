@@ -5,6 +5,7 @@
     margin-left: auto;
     margin-right: auto;
   padding:20px 30px;
+
 }
 .small-icons{
     display: flex;
@@ -18,4 +19,125 @@ height:23px;
 .icon-2{
 width: 25px;
 height: 25px;
+}
+.payment-title{
+    font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 38px;
+font-family: "Helvetica Neue",Helvetica,Arial;
+color: #40BFFF;
+text-align: center;
+}
+.circle-box{
+    display:flex;
+    justify-content:center;
+}
+.circles{
+    border-radius: 50%;
+    border:none;
+    background-color:#40BFFF;
+    margin-left: 20px;
+    padding:10px 15px;
+    color: aliceblue;
+}
+
+.flex-input{
+    display: flex;
+width: 95z0px;
+justify-content: space-evenly;
+padding-left: 20px;
+    margin-top:40px;
+}
+.input-1{
+    width: 400px;
+    
+}
+.input-2{
+    width: 400px;
+}
+
+.input{
+    width:380px ;
+    height:50px;
+    border: none;
+    background-color:#eeebeb;
+    opacity:0.5px;
+    border-radius:10px;
+    margin-top:20px;
+    padding:0px 10px;
+    outline: none;
+
+}
+.input-big{
+    width:380px ;
+    height:60px;
+    border: none;
+    background-color:#eeebeb;
+    opacity:0.5px;
+    border-radius:10px;
+    margin-top:20px;
+    padding:0px 10px  60px;
+    outline: none;
+}
+.select-title{
+    font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+color: #40BFFF;
+font-family: "Helvetica Neue",Helvetica, Arial;
+padding: 10px 2px;
+}
+.checkbox{
+    display: flex;
+    width: 370px;
+    height:46px;
+    transition: all 1s ease;
+    padding: 10px ;
+}
+.checkbox:hover{
+background-color: #EBF0FF;
+}
+.checkbox-img{
+    width: 20px;
+    height: 20px;
+    margin-top:5px;
+    padding-right: 10px;
+    
+}
+.checkbox > p{
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+    color: #223263;
+    margin-top: 7px;
+    width: 300px;
+
+}
+.checkbox-input{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #DFDEDE;
+    outline: none;
+
+}
+
+.input-button{
+    width: 340px;
+    height: 40px;
+    padding: 10px;
+    color: #fff;
+    background-color: #33A0FF;
+    font-family: "Helvetica Neue",Helvetica, Arial;
+    font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 33px;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+border-radius: 10px;
+margin-top:40px;
+
 }
