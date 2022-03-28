@@ -146,3 +146,27 @@ margin-top: 20px;
 .six{
   background-color: #EFDFDF;
 }
+.left-card-4{
+  width: 270px;
+  height: 245px;
+  padding: 10px;
+  margin-top:30px;
+   background-color: #F6F7F8;
+}
+.left-card-button{
+  width:289px;
+  height:56px;
+  background-color: #F6F7F8;
+  border:none;
+  margin-top:30px;
+  transition: all 1s ease;
+  font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+font-family: "Helvetica Neue",Helvetica,Arial;
+  
+}
+.left-card-button:hover{
+  background-color: #d8d9da;
+}
