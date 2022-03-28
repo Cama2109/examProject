@@ -1,0 +1,148 @@
+.head-part{
+  display: flex;
+  justify-content:center;
+}
+.home-title{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+color: #262626;
+transition: all 1s ease;
+margin-left: 20px;
+}
+.home-title:hover{
+  color:#33A0FF ;
+  transform: translateY(-4px);
+}
+.left-card-1{
+    width:270px ;
+    height: 398px;
+    background-color: #F6F7F8;
+    padding: 10px;
+
+}
+.left-card-1-title{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+  color: #333;
+}
+
+.left-card-1-flex{
+  display: flex;
+  justify-content:space-between;
+  width: 270px;
+  height: 50px;
+  color: #333;
+  transition: all 1s ease;
+padding: 0 3px;
+  margin-top:2px;
+
+}
+.left-card-1-flex-2{
+  display: flex;
+  justify-content:space-between;
+  width: 270px;
+  height: 50px;
+  color: #333;
+  transition: all 1s ease;
+padding: 0px ;
+  margin-top:2px;
+
+}
+.left-card-1-flex:hover{
+  background-color: rgb(206, 206, 206);
+  color: #007fee;
+}
+.left-card-1-text:hover{
+  color: #007fee;
+  
+}
+.left-card-1-number:hover{
+color: #007fee;
+opacity: 6;
+
+}
+.left-card-1-text{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Helvetica Neue",Helvetica,Arial;
+  color: #262626;
+
+}
+
+.left-card-1-number{
+  font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+color: #22262A;
+
+opacity: 0.35;
+}
+.left-card-1-number-2{
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+color: #22262A;
+margin-top:13px;
+}
+.left-card-2{
+  width:270px; 
+  height:144px;
+
+ padding: 10px;
+ margin-top:30px;
+  background-color: #F6F7F8;
+}
+.slider{
+  width: 257px;
+  height:12px;
+margin-top: 20px;
+}
+
+.left-card-3{
+  width:270px; 
+  height:100px;
+ padding: 10px;
+ margin-top:30px;
+  background-color: #F6F7F8;
+}
+.flex-color{
+  display: flex;
+  justify-content:space-around;
+}
+.colors{
+  width:30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-top:20px;
+}
+.one{
+  background-color: #006CFF;
+}
+.two{
+  background-color:#FC3E39;
+}
+.three{
+  background-color:#171717;
+}
+.four{
+  background-color: #FFF600;
+
+}
+.five{
+  background-color:#FF00B4 ;
+}
+.six{
+  background-color: #EFDFDF;
+}

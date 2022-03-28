@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,YAAY,CAAA;EACR,KAAK,EAAC,KAAM;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,OAAO;CAE5B;;AACD,AAAA,kBAAkB,CAAA;EACd,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,gCAAgC;EAC/C,KAAK,EAAE,IAAI;CACZ",
+    "sources": [
+        "../Scss/blocks/left-side.scss"
+    ],
+    "names": [],
+    "file": "left-side.css"
+}
