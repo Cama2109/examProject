@@ -126,7 +126,9 @@ margin-top: 20px;
   height: 30px;
   border-radius: 50%;
   margin-top:20px;
+ 
 }
+
 .one{
   background-color: #006CFF;
 }
@@ -169,4 +171,61 @@ font-family: "Helvetica Neue",Helvetica,Arial;
 }
 .left-card-button:hover{
   background-color: #d8d9da;
+  
+}
+
+.blue-card{
+  width: 962px;
+  height:297px;
+  background-color: #40BFFF;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.blue-part-title{
+  font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 45px;
+color: #f7f7f7;
+font-family: "Helvetica Neue", Helvetica, Arial;
+width: 350px;
+}
+.blue-part-text{
+  font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+color: #f7f7f7;
+}
+.blue-part-button{
+  width: 84px;
+  height:30px;
+  color: #f7f7f7;
+  font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 18px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+border:none;
+border-bottom: 4px solid #f7f7f7;
+background:none;
+margin-top: 30px;
+transition: all 1s ease;
+}
+.blue-part-button:hover{
+  background-color: #ffd68e;
+  border-radius: 6px;
+  color: #022b41;
+}
+.blue-part-written-part{
+  margin-top: 40px;
+}
+.blue-part-img{
+  width: 397px;
+  height:297px;
+  position: relative;
+  left: -60px;
+  top: -40px;
 }
