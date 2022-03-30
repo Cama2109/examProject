@@ -1,231 +1,304 @@
-.head-part{
+.main-box{
   display: flex;
-  justify-content:center;
-}
-.home-title{
-  font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-font-family: "Helvetica Neue", Helvetica, Arial;
-color: #262626;
-transition: all 1s ease;
-margin-left: 20px;
-}
-.home-title:hover{
-  color:#33A0FF ;
-  transform: translateY(-4px);
-}
-.left-card-1{
-    width:270px ;
-    height: 398px;
-    background-color: #F6F7F8;
-    padding: 10px;
-
-}
-.left-card-1-title{
-    font-style: normal;
-    font-weight: 600;
-    font-size: 18px;
-    line-height: 27px;
-    font-family: "Helvetica Neue",Helvetica,Arial;
-  color: #333;
-}
-
-.left-card-1-flex{
-  display: flex;
-  justify-content:space-between;
-  width: 270px;
-  height: 50px;
-  color: #333;
-  transition: all 1s ease;
-padding: 0 3px;
-  margin-top:2px;
-
-}
-.left-card-1-flex-2{
-  display: flex;
-  justify-content:space-between;
-  width: 270px;
-  height: 50px;
-  color: #333;
-  transition: all 1s ease;
-padding: 0px ;
-  margin-top:2px;
-
-}
-.left-card-1-flex:hover{
-  background-color: rgb(206, 206, 206);
-  color: #007fee;
-}
-.left-card-1-text:hover{
-  color: #007fee;
   
 }
-.left-card-1-number:hover{
-color: #007fee;
-opacity: 6;
+.right-side{
+  margin-left:20px;
+ }
 
+.head-part {
+  display: flex;
+  justify-content: center;
 }
-.left-card-1-text{
+.home-title {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
-  font-family: "Helvetica Neue",Helvetica,Arial;
+  font-family: "Helvetica Neue", Helvetica, Arial;
   color: #262626;
-
+  transition: all 1s ease;
+  margin-left: 20px;
+}
+.home-title:hover {
+  color: #33a0ff;
+  transform: translateY(-4px);
+}
+.left-card-1 {
+  width: 270px;
+  height: 398px;
+  background-color: #f6f7f8;
+  padding: 10px;
+}
+.left-card-1-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #333;
 }
 
-.left-card-1-number{
+.left-card-1-flex {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  height: 50px;
+  color: #333;
+  transition: all 1s ease;
+  padding: 0 3px;
+  margin-top: 2px;
+}
+.left-card-1-flex-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  height: 50px;
+  color: #333;
+  transition: all 1s ease;
+  padding: 0px;
+  margin-top: 2px;
+}
+.left-card-1-flex:hover {
+  background-color: rgb(206, 206, 206);
+  color: #007fee;
+}
+.left-card-1-text:hover {
+  color: #007fee;
+}
+.left-card-1-number:hover {
+  color: #007fee;
+  opacity: 6;
+}
+.left-card-1-text {
   font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 22px;
-font-family: "Helvetica Neue", Helvetica, Arial;
-color: #22262A;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #262626;
+}
 
+.left-card-1-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #22262a;
 opacity: 0.35;
 }
-.left-card-1-number-2{
+.left-card-1-number-2 {
   font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 22px;
-font-family: "Helvetica Neue", Helvetica, Arial;
-color: #22262A;
-margin-top:13px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #22262a;
+  margin-top: 13px;
 }
-.left-card-2{
-  width:270px; 
-  height:144px;
+.left-card-2 {
+  width: 270px;
+  height: 144px;
 
- padding: 10px;
- margin-top:30px;
-  background-color: #F6F7F8;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #f6f7f8;
 }
-.slider{
+.slider {
   width: 257px;
-  height:12px;
-margin-top: 20px;
+  height: 12px;
+  margin-top: 20px;
 }
 
-.left-card-3{
-  width:270px; 
-  height:100px;
- padding: 10px;
- margin-top:30px;
-  background-color: #F6F7F8;
+.left-card-3 {
+  width: 270px;
+  height: 100px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #f6f7f8;
 }
-.flex-color{
+.flex-color {
   display: flex;
-  justify-content:space-around;
+  justify-content: space-around;
 }
-.colors{
-  width:30px;
+.colors {
+  width: 30px;
   height: 30px;
   border-radius: 50%;
-  margin-top:20px;
- 
+  margin-top: 20px;
 }
 
-.one{
-  background-color: #006CFF;
+.one {
+  background-color: #006cff;
 }
-.two{
-  background-color:#FC3E39;
+.two {
+  background-color: #fc3e39;
 }
-.three{
-  background-color:#171717;
+.three {
+  background-color: #171717;
 }
-.four{
-  background-color: #FFF600;
-
+.four {
+  background-color: #fff600;
 }
-.five{
-  background-color:#FF00B4 ;
+.five {
+  background-color: #ff00b4;
 }
-.six{
-  background-color: #EFDFDF;
+.six {
+  background-color: #efdfdf;
 }
-.left-card-4{
+.left-card-4 {
   width: 270px;
   height: 245px;
   padding: 10px;
-  margin-top:30px;
-   background-color: #F6F7F8;
+  margin-top: 30px;
+  background-color: #f6f7f8;
 }
-.left-card-button{
-  width:289px;
-  height:56px;
-  background-color: #F6F7F8;
-  border:none;
-  margin-top:30px;
+.left-card-button {
+  width: 289px;
+  height: 56px;
+  background-color: #f6f7f8;
+  border: none;
+  margin-top: 30px;
   transition: all 1s ease;
   font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 21px;
-font-family: "Helvetica Neue",Helvetica,Arial;
-  
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
 }
-.left-card-button:hover{
+.left-card-button:hover {
   background-color: #d8d9da;
-  
 }
 
-.blue-card{
-  width: 962px;
-  height:297px;
-  background-color: #40BFFF;
+
+.blue-card {
+  width: 880px;
+  height: 297px;
+  background-color: #40bfff;
   display: flex;
   justify-content: space-evenly;
+  
+}
 
-}
-.blue-part-title{
+.blue-part-title {
   font-style: normal;
-font-weight: 500;
-font-size: 30px;
-line-height: 45px;
-color: #f7f7f7;
-font-family: "Helvetica Neue", Helvetica, Arial;
-width: 350px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #f7f7f7;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  width: 350px;
 }
-.blue-part-text{
+.blue-part-text {
   font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-font-family: "Helvetica Neue", Helvetica, Arial;
-color: #f7f7f7;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  color: #f7f7f7;
 }
-.blue-part-button{
+.blue-part-button {
   width: 84px;
-  height:30px;
+  height: 30px;
   color: #f7f7f7;
   font-style: normal;
-font-weight: 600;
-font-size: 12px;
-line-height: 18px;
-font-family: "Helvetica Neue", Helvetica, Arial;
-border:none;
-border-bottom: 4px solid #f7f7f7;
-background:none;
-margin-top: 30px;
-transition: all 1s ease;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+  border: none;
+  border-bottom: 4px solid #f7f7f7;
+  background: none;
+  margin-top: 30px;
+  transition: all 1s ease;
 }
-.blue-part-button:hover{
+.blue-part-button:hover {
   background-color: #ffd68e;
   border-radius: 6px;
   color: #022b41;
 }
-.blue-part-written-part{
+.blue-part-written-part {
   margin-top: 40px;
 }
-.blue-part-img{
+.blue-part-img {
   width: 397px;
-  height:297px;
+  height: 297px;
   position: relative;
   left: -60px;
   top: -40px;
+}
+.buttons{
+  display: flex;
+  justify-content:space-between;
+  width: 872px;
+  height: 58px;
+  background-color: #F6F7F8;
+  margin-top:20px;
+  padding:5px;
+}
+.select-part{
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+}
+.select-flex{
+  display: flex;
+  
+}
+.buttons-text{
+  font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+font-family: "Helvetica Neue", Helvetica, Arial;
+color: #22262A;
+margin-right: 12px;
+}
+.buttons-select{
+  width: 126px;
+  height: 30px;
+  margin-top: 10px;
+border: none;
+outline: none;
+background-color: #F1F3F4;
+padding: 5px;
+}
+.buttons-part{
+  display: flex;
+}
+.buttons-part > button{
+  border: none;
+  outline: none;
+  background: none;
+  width: 55px;
+  height: 55px;
+  transition: all 1s ease;
+  border-radius: 2px;
+}
+.buttons-part > button:hover{
+  background-color:rgb(238, 237, 237)
+}
+.blue-button{
+  width: 22px;
+  height: 22px;
+}
+
+
+//there is a filter-page below
+
+
+.third-page-filter{
+  display:grid;
+  grid-template-columns: auto auto auto;
+
+}
+.filter-boxes{
+  width: 238px;
+  height: 385px;
+  text-align: center;
+}
+.third-page-filter-img{
+  width: 208px;
+  height:230px;
 }
