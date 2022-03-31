@@ -173,8 +173,8 @@ opacity: 0.35;
 
 
 .blue-card {
-  width: 880px;
-  height: 297px;
+  width: 950px;
+  height: 347px;
   background-color: #40bfff;
   display: flex;
   justify-content: space-evenly;
@@ -231,7 +231,7 @@ opacity: 0.35;
 .buttons{
   display: flex;
   justify-content:space-between;
-  width: 872px;
+  width: 935px;
   height: 58px;
   background-color: #F6F7F8;
   margin-top:20px;
@@ -297,8 +297,27 @@ padding: 5px;
   width: 238px;
   height: 385px;
   text-align: center;
+  margin-top:20px
 }
 .third-page-filter-img{
   width: 208px;
-  height:230px;
+  height:200px;
+}
+.small-buttons{
+  display: flex;
+
+justify-content: center;
+}
+
+.number-filter{
+  width: 80px;
+  height: 60px;
+  border:none;
+  background:none;
+  transition: all 1.2s ease;
+ 
+}
+.number-filter:hover{
+  background-color:#40BFFF;
+  color: #fff;
 }

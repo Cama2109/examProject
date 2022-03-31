@@ -2375,8 +2375,8 @@ body {
 }
 
 .blue-card {
-  width: 880px;
-  height: 297px;
+  width: 950px;
+  height: 347px;
   background-color: #40bfff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2447,7 +2447,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  width: 872px;
+  width: 935px;
   height: 58px;
   background-color: #F6F7F8;
   margin-top: 20px;
@@ -2527,10 +2527,34 @@ body {
   width: 238px;
   height: 385px;
   text-align: center;
+  margin-top: 20px;
 }
 
 .third-page-filter-img {
   width: 208px;
-  height: 230px;
+  height: 200px;
+}
+
+.small-buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.number-filter {
+  width: 80px;
+  height: 60px;
+  border: none;
+  background: none;
+  -webkit-transition: all 1.2s ease;
+  transition: all 1.2s ease;
+}
+
+.number-filter:hover {
+  background-color: #40BFFF;
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.map */
